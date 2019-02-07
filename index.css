@@ -1,0 +1,26 @@
+.droppable {
+    display: inline-block;
+    width: 300px;
+    padding: 50px 30px 0;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.draggable:nth-child(1) {
+    height: 10px;
+    width: 60px;
+    margin: 0 auto;
+    background: red;
+}
+.draggable:nth-child(2) {
+    height: 10px;
+    width: 70px;
+    margin: 0 auto;
+    background: blue;
+}
+.draggable:nth-child(3) {
+    height: 10px;
+    width: 80px;
+    margin: 0 auto;
+    background: yellow;
+}
